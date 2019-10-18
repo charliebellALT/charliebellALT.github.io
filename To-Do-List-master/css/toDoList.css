@@ -1,0 +1,83 @@
+body {
+    background-color: #eee8aa;
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+#instr1 {
+    background-color: rgb(101, 139, 255);
+    margin: 0;
+    white-space: nowrap;
+    padding-top: 3%;
+}
+
+#instr2 {
+    background-color: rgb(101, 139, 255);
+    padding-top: 3%;
+    margin: 0;
+}
+
+#instr3 {
+    background-color: rgb(101, 139, 255);
+    padding-top: 3%;
+    margin: 0;
+}
+
+#instr4 {
+    background-color: rgb(101, 139, 255);
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+/* styles for the input element, adds to To-Do List */
+
+input {
+    min-width: 65%;
+}
+
+ul {
+    text-align: left;
+}
+
+li {
+    border: 3px transparent;
+    margin-top: 10px;
+}
+
+button {
+    background-color: red;
+}
+
+#submit {
+    background-color: red;
+
+    
+}
+
+#submit:hover {
+    background-color: orangered;
+}
+
+/* Styles for when a list item is marked done */
+
+.done {
+    background-color: #D9D39B !important;
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+
+.delete {
+    display: none;
+}
+
+.instructions {
+    font-size: 90%;
+}
+
+li > button {
+    /* position: fixed; */
+    float: right;
+    border: none;
+    background: none;
+    background-color: coral;
+}

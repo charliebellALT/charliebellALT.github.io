@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>[Trainer]'s Pokédex</title>
+    
+    <!-- Link to Bootstrap stylesheet -->
+    <link rel="stylesheet" href="../../../bootstrap-4.3.1-dist/css/bootstrap.css">
+
+    <!-- Link to my stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-dark" style="background-color:#f42069">
+        <span class="navbar-brand mb-0 h1" style="color:#ffcb05;text-shadow:2px 2px#c7a008">Pokémon</span>
+
+        <form class="form-inline">
+                <input id="pokemonInput" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button id="search" class="btn btn-outline-success my-2 my-sm-0" type="button">Search</button>
+        </form>
+    </nav>      
+    
+    <!--Pokemon Card-->
+    <div id="pokemonInfoCard" class="card" style="width: 18rem;">
+            <!--Pokemon Image-->
+        <img src="..." id="pokemonImage" class="card-img-top" alt="..."> 
+
+    <!--Pokemon Name-->
+    <div class="card-body">
+        <h5 id="pokemonName" class="card-title">Pokemon Name</h5>
+    </div>
+
+    <!--List of Pokemon Information-->
+    <ul id="pokemonInformationList" class="list-group list-group-flush">
+
+    </ul>
+
+    </div>
+
+    <!-- Link JQuery, Popper.js, and Bootstrap JS -->
+
+    <!--JQuery-->
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+
+    <!--Popper.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <!-- Link to personal js-->
+    <script src="js/scripts.js"></script>
+
+    <!--Bootstrap--> 
+    <script src="../../../bootstrap-4.3.1-dist/js/bootstrap.js"></script>
+
+</body>
+</html>
